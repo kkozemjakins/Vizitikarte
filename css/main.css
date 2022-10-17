@@ -27,7 +27,7 @@
     height: 145px ; 
     left: 6px; 
     position: absolute ;
-    top: 64px ;
+    top: 100px ;
     transform: rotate(9.01deg);
     width: 827px ;
 }
@@ -41,7 +41,7 @@
     letter-spacing : 0; 
     position: absolute ; 
     text-align : center ; 
-    top :16px ;
+    top :46px ;
     transform: rotate(9.01deg );
     width: 719px ;
 }

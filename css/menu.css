@@ -1,0 +1,109 @@
+#title-about_me{
+  margin-top: 70px;
+  transform: rotate(30deg);
+  margin-left: 40px;
+  display: none;
+}
+
+#title-social_media{
+  margin-top: 70px;
+  margin-left: 90px;
+  display: none;
+}
+
+#title-prog_lang{
+  margin-top: 40px;
+  margin-left: 60px;
+  display: none;
+}
+
+#title-hobbies{
+  margin-top: 110px;
+  margin-left: 60px;
+  display: none;
+}
+
+
+
+.frame2Wrapper {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+}
+
+.body {
+  background-color: #98afff;
+  
+}
+
+.pill {
+  top: 90px;
+  height: 198px;
+  left: 774px;
+  width: 359px;
+  position: absolute;
+  border-radius: 97.5px;
+  overflow: hidden;
+  background-color: #ebebeb;
+  transform: rotate(-10deg);
+}
+
+.square {
+  top: 195px;
+  height: 290px;
+  left: 173px;
+  width: 280px;
+  position: absolute;
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: #ef8181;
+  transform: rotate(10deg);
+}
+
+.viewZero {
+  top: 385px;
+  height: 138px;
+  left: 1464px;
+  width: 276px;
+  position: absolute;
+  border-radius: 98.92px;
+  overflow: hidden;
+  background-color: #f2e56d;
+  transform: rotate(-30deg);
+}
+
+.viewTwo {
+  top: 287px;
+  height: 141px;
+  left: 1400px;
+  width: 270px;
+  position: absolute;
+  border-radius: 98.92px;
+  overflow: hidden;
+  background-color: #f2e56d;
+  transform: rotate(-30deg);
+}
+
+.cloud2 {
+  top: 550px;
+  height: 207px;
+  left: 846px;
+  width: 269px;
+  position: absolute;
+  border-radius: 103.5px;
+  overflow: hidden;
+  background-color: #324fa5;
+  transform: rotate(80deg);
+}
+
+.cloud1 {
+  top: 600px;
+  height: 207px;
+  left: 775px;
+  width: 449px;
+  position: absolute;
+  border-radius: 103.5px;
+  overflow: hidden;
+  background-color: #324fa5;
+}
+

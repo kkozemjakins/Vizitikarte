@@ -1,3 +1,3 @@
-function toPivo() {
-  window.location.href = "pivo.html";
+function toMenu() {
+  window.location.href = "menu.html";
 }
