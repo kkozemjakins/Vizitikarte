@@ -36,7 +36,7 @@
   
 }
 
-.pill {
+#pill {
   top: 90px;
   height: 198px;
   left: 774px;
@@ -48,7 +48,7 @@
   transform: rotate(-10deg);
 }
 
-.square {
+#square {
   top: 195px;
   height: 290px;
   left: 173px;
