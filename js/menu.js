@@ -1,4 +1,9 @@
  /*For hobbys*/
+
+current_user_name = localStorage.getItem('Current User Name');
+
+document.getElementById("username").innerHTML = 'Username: ' + current_user_name;
+
 var hobby = document.getElementById("square");
 hobby.addEventListener("mouseover", hobbyOver);
 hobby.addEventListener("mouseout", hobbyOut);

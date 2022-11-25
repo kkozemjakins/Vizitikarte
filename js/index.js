@@ -1,3 +1,3 @@
 function toMenu() {
-  window.location.href = "menu.html";
+  window.location.href = "login.html";
 }

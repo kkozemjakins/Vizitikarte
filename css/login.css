@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(107, 124, 124);
+}
+
+#login_div{
+    width: 721px;
+    height: 922px;
+    background-color: #b9d9e3;
+    text-align: center;
+    border-radius: 50px;
+    border-width: medium;
+    border-style: solid;
+    margin: 0 auto; 
+};
+
+#login_icon{
+    width: 133px;
+    height: 136px;
+};
+
+.button {
+    display: none;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.button:hover {
+    background-color: #4e4e4e;
+    color: white;
+}
+
+input {
+    margin-top: 100px;
+    text-align: center;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width:60%;
+    height: 50px;
+    font-family:inherit;
+    font-size: inherit;
+  
+  }
+
+  .atpakaļ {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+  .atpakaļ:hover { background: rgb(53, 167, 110); }
+  .atpakaļ:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
