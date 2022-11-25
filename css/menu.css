@@ -18,8 +18,8 @@
 }
 
 #title-hobbies{
-  margin-top: 110px;
-  margin-left: 60px;
+  margin-top: 12vh;
+  text-align: center;
   display: none;
 }
 
@@ -39,9 +39,11 @@
 #pill {
   top: 90px;
   height: 198px;
+  
   left: 774px;
   width: 359px;
-  position: absolute;
+  
+  position: fixed;
   border-radius: 97.5px;
   overflow: hidden;
   background-color: #ebebeb;
@@ -49,11 +51,13 @@
 }
 
 #square {
-  top: 195px;
-  height: 290px;
-  left: 173px;
-  width: 280px;
-  position: absolute;
+  top: 35vh;
+  height: 35vh;
+
+  left: 10vh;
+  width: 44vh;
+
+  position: fixed;
   border-radius: 9px;
   overflow: hidden;
   background-color: #ef8181;

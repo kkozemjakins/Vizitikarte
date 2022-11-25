@@ -11,7 +11,8 @@
     background-color: #8684fb; /*#8784fca3*/
     border: 1px none;
     display: flex;
-    padding: 403.1px 539.7px;
+    width: 100%;
+    text-align: center;
 }
 
 .overlap-group{
@@ -24,12 +25,13 @@
 .rectangle-2{
     background-color: #d9d9d9;
     border : 1px none; 
-    height: 145px ; 
-    left: 6px; 
-    position: absolute ;
-    top: 100px ;
+    height: 20vh; 
+    position:fixed;
     transform: rotate(9.01deg);
-    width: 827px ;
+    width: 115vh ;
+    top: 40vh;
+    left: 55vh;
+    margin: auto;
 }
 
 .title  {
@@ -37,17 +39,15 @@
     font-family: var(--font-family-s1gn1ka); 
     font-size: var(--font-size-m);
     font-weight: 400; 
-    left: 60px ;
-    letter-spacing : 0; 
-    position: absolute ; 
-    text-align : center ; 
-    top :46px ;
-    transform: rotate(9.01deg );
-    width: 719px ;
+    position:fixed;
+    transform: rotate(9.0deg );
+    white-space: nowrap;
+    top: 42vh;
+    left: 56.5vh;
 }
 
 :root{
  --black: rgba(0,0,0,1);
- --font-size-m: 96px;
+ --font-size-m: 17vh;
  --font-family-signika: "Signika";
 }
