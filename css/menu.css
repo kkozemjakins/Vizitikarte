@@ -1,25 +1,28 @@
 #title-about_me{
-  margin-top: 70px;
-  transform: rotate(30deg);
-  margin-left: 40px;
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 8vh;
   display: none;
 }
 
 #title-social_media{
-  margin-top: 70px;
-  margin-left: 90px;
+  margin-top: 8vh;
+  text-align: center;
+  font-size: 8vh;
   display: none;
 }
 
 #title-prog_lang{
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 8vh;
   display: none;
 }
 
 #title-hobbies{
   margin-top: 12vh;
   text-align: center;
+  font-size: 8vh;
   display: none;
 }
 
@@ -34,17 +37,21 @@
 .body {
   background-color: #98afff;
   
+  background-repeat:no-repeat;
+
+  background-size:cover;
+  
 }
 
 #pill {
-  top: 90px;
-  height: 198px;
+  top: 5vh;
+  height: 30vh;
   
-  left: 774px;
-  width: 359px;
+  left: 80vh;
+  width: 54vh;
   
   position: fixed;
-  border-radius: 97.5px;
+  border-radius: 25vh;
   overflow: hidden;
   background-color: #ebebeb;
   transform: rotate(-10deg);
@@ -58,55 +65,63 @@
   width: 44vh;
 
   position: fixed;
-  border-radius: 9px;
+  border-radius: 5vh;
   overflow: hidden;
   background-color: #ef8181;
   transform: rotate(10deg);
 }
 
 .viewZero {
-  top: 385px;
-  height: 138px;
-  left: 1464px;
-  width: 276px;
-  position: absolute;
-  border-radius: 98.92px;
+  top: 35vh;
+  height: 20vh;
+  
+  right: 10vh;
+  width: 44vh;
+  position: fixed;
+
+  border-radius: 25vh;
   overflow: hidden;
   background-color: #f2e56d;
   transform: rotate(-30deg);
 }
 
 .viewTwo {
-  top: 350px;
-  height: 141px;
-  left: 1430px;
-  width: 270px;
-  position: absolute;
-  border-radius: 98.92px;
+  top: 40vh;
+  height: 20vh;
+
+  right: 10vh;
+  width: 44vh;
+
+  position: fixed;
+  border-radius: 25vh;
   overflow: hidden;
   background-color: #f2e56d;
   transform: rotate(-30deg);
 }
 
 .cloud2 {
-  top: 550px;
-  height: 207px;
-  left: 846px;
-  width: 269px;
-  position: absolute;
-  border-radius: 103.5px;
+  top: 65vh;
+  height: 25vh;
+
+  left: 103vh;
+  width: 25vh;
+
+  position: fixed;
+  border-radius: 27vh;
   overflow: hidden;
   background-color: #324fa5;
   transform: rotate(80deg);
 }
 
 .cloud1 {
-  top: 600px;
-  height: 207px;
-  left: 775px;
-  width: 449px;
-  position: absolute;
-  border-radius: 103.5px;
+  top: 72vh;
+  height: 25vh;
+
+  left: 92vh;
+  width: 50vh;
+
+  position: fixed;
+  border-radius: 27vh;
   overflow: hidden;
   background-color: #324fa5;
 }
