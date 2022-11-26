@@ -1,4 +1,37 @@
 .body {
     background-color: #a38cf8;
-    
+    padding:50px;
+    height: 100%;
   }
+
+.panel-heading{
+    font-size:50px;
+    font-weight:bold;
+  }
+  .panel-body b{
+    font-size:40px;
+  }
+  .panel-body p{
+    font-size:30px;
+    padding-left:12px;
+    margin-top: 15px;
+    word-wrap: break-word;
+  }
+
+  .time{
+    font-size:25px;
+    padding-left:12px;
+}
+
+  #input_div{
+    padding:25px;
+  }
+
+  #text{
+    width:40%;
+    display:inline-block;
+    word-wrap: break-word;
+    font-size:30px;
+  }
+
+  
