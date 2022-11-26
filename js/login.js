@@ -8,7 +8,6 @@ const reg = document.getElementById('buttonREG');
 
 window.addEventListener('load', () => {
     user_data = JSON.parse(localStorage.getItem("user_data") || "[]");
-    console.log(user_data)
     render();
 });
 
@@ -18,11 +17,11 @@ document.getElementById('buttonREG').addEventListener('click', () => {
     reg.style.display = 'none';
 
     let vards = document.getElementById("login_div").innerHTML = ` 
-    <p><input id="username" class="input" type="text"  maxlength="30" placeholder="Vārds Uzvārds" required></p>
-    <p><input id="password" class="input" type="password" maxlength="30" placeholder="Parole" required></p>
-    <p><input id="passwordADD" class="input" type="password" maxlength="30" placeholder="Apstipriniet paroli" required></p>
-    <p><button class="button" id="Registracija" onclick="registracija()" style="font-size: 40px;margin-top: 20%;height: 73px;width: 500px;">Reģistrācija</button></p>
-    <p><a href="login.html"><button class="atpakaļ">Atpakaļ</button></a></p>`;
+    <p><input id="username" class="input" type="text"  maxlength="30" placeholder="Username" required></p>
+    <p><input id="password" class="input" type="password" maxlength="30" placeholder="Password" required></p>
+    <p><input id="passwordADD" class="input" type="password" maxlength="30" placeholder="Confirm password" required></p>
+    <p><button class="button" id="Registracija" onclick="registracija()" style="font-size: 40px;margin-top: 20%;height: 73px;width: 500px;">Registration</button></p>
+    <p><a href="login.html"><button class="atpakaļ">Back</button></a></p>`;
 
 })
 
@@ -32,10 +31,10 @@ document.getElementById('buttonLOGIN').addEventListener('click', () => {
     reg.style.display = 'none';
 
     let vards = document.getElementById("login_div").innerHTML = `      
-    <p><input id="username" class="input" type="text"  maxlength="30" placeholder="Vārds Uzvārds" required></p>
-    <p><input id="password" class="input" type="password" maxlength="30" placeholder="Parole" required></p>
+    <p><input id="username" class="input" type="text"  maxlength="30" placeholder="Username" required></p>
+    <p><input id="password" class="input" type="password" maxlength="30" placeholder="Password" required></p>
     <p><button class="button" id="Login" onclick="Login()" style="font-size: 40px;margin-top: 20%;height: 73px;width: 500px;">Login</button></p>
-    <p><a href="login.html"><button class="atpakaļ">Atpakaļ</button></a></p>`;
+    <p><a href="login.html"><button class="atpakaļ">Back</button></a></p>`;
 
 })
 
@@ -46,9 +45,7 @@ function Login(){
 
         login_pass = document.getElementById('password').value;
 
-        console.log(login_name)
-        console.log(login_pass)
-        
+
 
         if(login_name === user_data[i].username && login_pass == user_data[i].password){
 
