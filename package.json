@@ -1,7 +1,30 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "http-server": "^14.1.1",
     "mongodb": "^4.12.1",
+    "mongoose": "^6.7.4",
     "package-name": "^0.1.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "vizitikarte",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "coffee-script": "^1.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkozemjakins/Vizitikarte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkozemjakins/Vizitikarte/issues"
+  },
+  "homepage": "https://github.com/kkozemjakins/Vizitikarte#readme"
 }
