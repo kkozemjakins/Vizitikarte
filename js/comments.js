@@ -63,7 +63,7 @@ function DelComment(index){
 
     render();
 
-    window.location.href = "comments.html";
+    window.location.href = "../html/comments.html";
 
 }
 
@@ -80,7 +80,7 @@ function AddComment(){
 
     render();
 
-    window.location.href = "comments.html";
+    window.location.href = "../html/comments.html";
 
     text.value = "";
 

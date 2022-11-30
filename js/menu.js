@@ -15,7 +15,7 @@ function hobbyOver(){
     
     document.getElementById("title-hobbies").style.display = "inherit";
 
-    document.body.style.backgroundImage = "url('img/guitar.jpg')";
+    document.body.style.backgroundImage = "url('../img/guitar.jpg')";
 }
 
 function hobbyOut(){
@@ -40,7 +40,7 @@ function prog_languageOver(){
 
     document.getElementById("title-prog_lang").style.display = "inherit";
 
-    document.body.style.backgroundImage = "url('img/prog_lang.jpg')";
+    document.body.style.backgroundImage = "url('../img/prog_lang.jpg')";
 }
 
 function prog_languageOut(){
@@ -66,7 +66,7 @@ function socialOver(){
 
     document.getElementById("title-social_media").style.display = "inherit";
 
-    document.body.style.backgroundImage = "url('img/social_media.jpg')";
+    document.body.style.backgroundImage = "url('../img/social_media.jpg')";
 }
 
 function socialOut(){
@@ -91,7 +91,7 @@ function socialOut(){
      
      document.getElementById("title-about_me").style.display = "inherit";
      
-     document.body.style.backgroundImage = "url('img/about_me.jpg')";
+     document.body.style.backgroundImage = "url('../img/about_me.jpg')";
  }
  
  function about_meOut(){
