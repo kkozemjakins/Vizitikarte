@@ -3,7 +3,8 @@ var app = express();
 var mongoose = require("mongoose");
 var bodyParser = require('body-parser');
 
-app.use(bodyParser.urlencoded({extended: true}));
+//app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static('public'));
 
 mongoose.connect('mongodb+srv://kkozemjakins:30032010Db@cluster0.e5izs5u.mongodb.net/Vizitkarte', {useNewUrlParser:true}, {useUnifiedTopology: true});
 
@@ -16,7 +17,7 @@ const UserDataSchema ={
 const UserData = mongoose.model("UserData", UserDataSchema);
 
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/html/index.html");
 });
 
 app.post("/", function(req, res){
